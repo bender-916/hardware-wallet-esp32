@@ -1,0 +1,32 @@
+# Build directories
+build/
+firmware/build/
+__pycache__/
+*.pyc
+*.pyo
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ESP-IDF
+sdkconfig
+sdkconfig.old
+
+# Python
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hardware specific
+*.bin
+*.elf
+*.map
